@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #0f4777;
+}
+
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 1rem;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.navbar{ 
+    color: #ffeb00;
+    background-image: linear-gradient(to right, #00f5ff,#79f563);
+    padding: 0; !important;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#banner{
+     background-image: linear-gradient(to right, #fff620, #49006c);
+    padding: 5; !important;
+    border-color: crimson;
+}
+
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    color: #ceff00;
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #d93d3d;
+}
+
+.carousel-indicators {
+    display: all;
+  }
+  .display-4 {
+    font-size: 200%;
+  }
+
+.btn-primary {
+  background-color: #ff7600;
+  border: 1px solid #fc6100;
+}
+
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: rgba(63, 67, 180, 0.88) !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-fa-bars{
+    color: #aa00fc;
+    font-size: 40px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;
+}
+.padding {
+  padding-bottom: 2rem;
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.welcome hr {
+  border-top: 2px solid #ef7f7f;
+  width: 100%;
+  margin-top: .3rem;
+  margin-bottom: 1rem; 
+}
+
+.card{
+  color: #e54d26;
+  text-decoration: bold;
+}
+
+.card-title{
+    background-color: #ffc400;
+    border-color: black;
+}
+
+.card-text{
+    background-color: #d5adde ;
+}
+
+.btn-outline-secondary:hover{
+    color:#ffff00;
+   
+}
+
+.social a {
+  font-size: 3em;
+  padding: 1rem;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #00aced;
+}
+.fa-instagram {
+  color: #ff386e;
+}
+
+.fa-facebook:hover{
+    
+  color: #03005a;
+}
+
+.fa-twitter:hover{
+    
+  color: #004e88;
+}
+    
+.fa-instagram:hover{
+  color: #680796;
+}
+
+footer {
+  background-color: #000000;
+  color: #ef7f7f;
+  padding-top: 2rem;
+}
+hr.light {
+  border-top: 1px solid #d32c8c;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+footer a {
+  color: #a70a0a;
+}
+hr.light-100 {
+  border-top: 1px solid #e54d26;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
